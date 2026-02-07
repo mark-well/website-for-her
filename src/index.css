@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#root {
+  max-width: 100dvw;
+  min-height: 100dvh;
+  background-color: #FCF8F8;
+}
+
+.message>p {
+  max-width: 600px;
+}
+
+.default-boxshadow {
+  box-shadow: 0 4px 16px 0 hsla(0, 0%, 0%, 15%);
+}
