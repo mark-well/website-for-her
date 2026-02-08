@@ -19,6 +19,7 @@
     justify-content: start;
     align-items: start;
     filter: blur(0.8px);
+    font-size: clamp(0.5rem, 3vw, 1rem);
 }
 
 .metadata {
