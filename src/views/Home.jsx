@@ -1,22 +1,22 @@
 import { Helmet } from "react-helmet";
-import MusicLayer from "../components/MusicLayer";
 
 function Home() {
     return (
         <>
             <Helmet>
-                <title>Home</title>
+                <title>You Lied</title>
             </Helmet>
 
-            <div className="p-4">
-                <p className="text-xs text-[#333333] text-center">Last update on <i className="italic">Jan 31, 2026.</i></p>
-                <main className="message px-8 mt-8 text-justify flex flex-col items-center gap-4 indent-8">
-                    <p>Oyy? ano at napadpad ka dito? miss mo ako no?🤭 ikaw ha.</p>
-                    <p>Hindi ko alam kung babalikan mo pa tong website na ‘to, pero kung nababasa mo ‘to ibig sabihin non binalikan mo nga HAHAHAHA.</p>
-                    {/* <p>Feel free to message me if kailangan mo ng kausap. Kung ayaw mo edi... bahala ka HAHAHA</p> */}
-                </main>
-                <MusicLayer className="mt-8" />
+            <div className="flex flex-col min-h-dvh">
+                <div className="py-4">
+                    <p className="text-xs text-center text-[#333333]">Last update on <span className="italic">Feb 9, 2026</span>.</p>
+                </div>
+                <div className="px-8 flex flex-col gap-y-8 grow justify-center items-center text-center text-[hsl(0,0%,20%)]">
+                    <h1 className="font-bold text-xl">Akala ko honest ka</h1>
+                    <p>Dapat sinabi mo na lang <span className="italic">"sorry <span className="font-medium">Mark Well</span>, hindi pala ako sigurado sa nararamdaman ko sa'yo, may gusto akong iba"</span>.</p>
+                </div>
             </div>
+
         </>
     );
 }
